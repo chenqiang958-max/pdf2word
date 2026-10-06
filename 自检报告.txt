@@ -1,0 +1,41 @@
+==================================================
+            打包环境 自检报告
+==================================================
+目录：G:\重要1\01\PDF2Word_卡密版_v6
+
+一、Python
+  版本：3.12.10   位数：64 位
+  路径：C:\Users\陈强\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\python.exe
+
+二、打包依赖组件
+  [OK ] pyinstaller      版本 6.22.1
+  [OK ] customtkinter    版本 6.0.0
+  [OK ] cryptography     版本 50.0.0
+  [OK ] pymupdf          版本 1.28.2
+  [OK ] python-docx      版本 1.2.0
+  [OK ] pdf2docx         版本 ?
+  [OK ] pillow           版本 12.3.0
+
+三、源码文件是否齐全
+  [OK ] pdf2word.py
+  [OK ] pdf2word_gui.py
+  [OK ] license_core.py
+  [OK ] keygen.py
+
+四、公钥是否已生成
+  [OK ] 公钥已配置。
+
+五、图标文件 icon_64.ico
+  文件大小：16958 字节
+  [OK ] 标准 ICO
+  PIL 可读：格式=ICO 尺寸=(64, 64) 模式=RGBA
+
+六、磁盘空间
+  可用空间：106.9 GB
+
+七、已生成的 exe（如果有）
+  还没有 dist\PDF2Word.exe。
+
+==================================================
+组件齐全。若 exe 仍是几 KB，多半是杀毒软件隔离，请看第七节。
+==================================================
