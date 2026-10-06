@@ -1,0 +1,12 @@
+把本压缩包里的两个文件：
+  1) setup.iss
+  2) ChineseSimplified.isl
+一起复制到  PDF2Word_卡密版  文件夹里（和 dist 文件夹同一层）。
+
+然后右键 setup.iss → Compile（或双击打开点绿色 ▶ 按钮）。
+编译成功后，Output 文件夹里的  PDF工具_安装程序.exe  就是中文安装包。
+
+说明：
+- 安装向导已全程中文。
+- 已去掉英文“选择安装方式(Select Setup Install Mode)”那个框，
+  改成免管理员、按当前用户安装，客户点“下一步”即可。
