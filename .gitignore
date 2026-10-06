@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.env
+
+# 构建产物
+dist/
+build/
+*.exe
+
+# 私钥 —— 绝不提交！
+private_key.hex
+codes_*.txt
+
+# 编辑器
+.vscode/
+.idea/
