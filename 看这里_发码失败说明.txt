@@ -1,0 +1,21 @@
+您刚才那张截图的原文是：
+
+  Opening card-key generator (keygen)...
+  'py' 不是内部或外部命令，也不是可运行的程序
+  或批处理文件。
+  请按任意键继续. . .
+
+含义只有一句话：系统里没有名为 py 的命令。
+旧版 2_发码.bat 写死了 “py -3.12 keygen.py”，所以一点开就失败，按任意键窗口就关。
+
+本次已改成自动寻找 python / python3 / 常见安装路径。
+
+请您：
+1. 用新压缩包里的 2_发码.bat（不要用旧文件夹里那份）。
+2. 若仍提示找不到 Python：
+   - 到 https://www.python.org/downloads/ 安装 3.12
+   - 安装界面第一屏勾选 “Add python.exe to PATH”
+   - 装完重新打开 2_发码.bat
+3. 若 Python 是微软商店装的：
+   设置 → 应用 → 高级应用设置 → 应用执行别名
+   打开 python.exe / python3.exe
